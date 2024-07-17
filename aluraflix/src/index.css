@@ -1,0 +1,13 @@
+:root {
+  --font: "Source Sans 3", sans-serif;
+  --dark: #262626;
+  --blue: #2271D1;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

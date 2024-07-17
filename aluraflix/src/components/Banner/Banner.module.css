@@ -1,0 +1,42 @@
+.container{
+    background-image: url('../../../public/img/background.png');
+    height: 832px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.label {
+    display: flex;
+    flex-flow: column;
+    width: 40%;
+}
+
+.blueLabel{
+    width: 30%;
+    display: flex;
+    background-color: #6BD1FF;
+    color: white;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.blueLabelText {
+    margin: 10px;
+}
+
+.challenge {
+    color: white;
+    font-weight: 400;
+}
+
+.description{
+    color: white;
+}
+
+.video {
+    box-shadow: 0px 0px 17px 8px #6BD1FF inset;
+    border: 5px solid #6BD1FF;
+}
